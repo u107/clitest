@@ -1,11 +1,10 @@
-oclif-hello-world
+clitest
 =================
 
-oclif example Hello World CLI
+Example clitest CLI
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![GitHub license](https://img.shields.io/github/license/oclif/hello-world)](https://github.com/oclif/hello-world/blob/main/LICENSE)
+[![NPM version](http://img.shields.io/npm/v/@cli107/clitest.svg?style=flat-square)](http://npmjs.org/package/@cli107/clitest)
+[![GitHub license](https://img.shields.io/github/license/4746/clitest)](https://github.com/4746/clitest/blob/main/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -14,11 +13,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g clitest
+$ npm install -g @cli107/clitest
 $ clitest COMMAND
 running command...
 $ clitest (--version)
-clitest/1.0.0 win32-x64 node-v18.19.0
+@cli107/clitest/1.0.2 win32-x64 node-v18.19.0
 $ clitest --help [COMMAND]
 USAGE
   $ clitest COMMAND
@@ -53,7 +52,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/4746/clitest/blob/v1.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/4746/clitest/blob/v1.0.2/src/commands/hello/index.ts)_
 
 ## `clitest hello world`
 
@@ -71,7 +70,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/4746/clitest/blob/v1.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/4746/clitest/blob/v1.0.2/src/commands/hello/world.ts)_
 
 ## `clitest help [COMMANDS]`
 
