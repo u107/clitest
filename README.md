@@ -1,7 +1,8 @@
 clitest
 =================
 
-Example clitest CLI
+Example clitest CLI 
+test 1
 
 [![NPM version](http://img.shields.io/npm/v/@cli107/clitest.svg?style=flat-square)](http://npmjs.org/package/@cli107/clitest)
 [![GitHub license](https://img.shields.io/github/license/4746/clitest)](https://github.com/4746/clitest/blob/main/LICENSE)
