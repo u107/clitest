@@ -1,5 +1,5 @@
 {
-  "name": "clitest",
+  "name": "@cli107/clitest",
   "version": "1.0.1",
   "bugs": "https://github.com/4746/clitest/issues",
   "license": "MIT",
@@ -61,6 +61,7 @@
     "/oclif.manifest.json"
   ],
   "oclif": {
+    "scope": "@cli107",
     "bin": "clitest",
     "dirname": "clitest",
     "commands": "./dist/commands",
@@ -81,6 +82,9 @@
       "name": "Cli test",
       "keypath": "./key/windows-signing.pfx"
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "types": "dist/index.d.ts",
   "exports": "./lib/index.js",
